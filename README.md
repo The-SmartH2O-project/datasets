@@ -54,6 +54,7 @@ For all columns, a `NULL` value means that the user doesn't provided the informa
 ### smarth2o_anonymized_consumptions.csv
 It contains the periodic readings of the smart meters.
 Here's an extract :
+
 | index | smart_meter_id | tst                 | meter_reading |
 |-------|----------------|---------------------|---------------|
 | 17    | 210            | 2015-05-20 09:15:00 | 178,297       |
@@ -87,5 +88,5 @@ In order to certificate the autenticity of the datasets, we provide these additi
 The SmartH2O key, [available here](https://pgp.mit.edu/pks/lookup?op=vindex&search=0x9739174C8B57ACA9), has this fingerprint: `7F14 4F03 BCB9 9A3C D99D 7483 9739 174C 8B57 ACA9`
 
 ## Contacts
-For any type of further questions write to `smarth2o@idsia.ch'. 
+For any type of further questions write to `smarth2o@idsia.ch`. 
 The maintainer of this dataset is Corrado Valeri (`corrado.valeri@supsi.ch`).
