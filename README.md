@@ -1,7 +1,8 @@
- # Anonymized datasets of SmartH2O project   
- ## Overview
- This repository contains the anonymized datasets of water consumptions of __Tegna__ and __Valencia__ SmartH2O's users.
- Each dataset is stored in its named folder, and have the same file naming:
+# Anonymized datasets of SmartH2O project   
+----
+## Overview
+This repository contains the anonymized datasets of water consumptions of __Terre di Pedemonte__ and __Valencia__ SmartH2O's users.
+Each dataset is stored in its named folder, and have the same file naming:
  
 `anonymizer.zip`: the compressed archive of water consumptions and households features
 
@@ -29,6 +30,7 @@ Here's an extract :
 | 13    | 111            | 85,00          | 0,00                  | 0,00                  | 0              | 0                | Flat           | 2                | Medium environmental sensitivity | 0                 | 0            | 0              | \N            | dishwasher      | A++        | 1       | 1     | washing_machine_simple | 1      |
 
 The columns meaning is:
+
 1. `index` The number of the row in the csv file
 1. `smart_meter_id` The smart meter's ID
 1. `household_size` The size of the Household (in squared meters)
@@ -70,6 +72,7 @@ Here's an extract :
 | 27    | 210            | 2015-05-30 09:15:00 | 179,579       |
 
 The columns meaning is:
+
 1. `index`  The number of the row in the csv file
 1. `smart_meter_id` The smart meter's ID
 1. `tst` The timestamp of the reading
